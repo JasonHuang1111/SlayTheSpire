@@ -101,3 +101,8 @@ InitTestScene*.unity*
 ProjectSettings
 Assets/Settings
 Packages
+Assets/TextMesh Pro
+Assets/Plugins
+Assets/TextMesh Pro.meta
+Assets/Resources/DOTweenSettings.asset
+Assets/Resources/DOTweenSettings.asset.meta
