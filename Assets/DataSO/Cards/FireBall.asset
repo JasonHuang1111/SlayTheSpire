@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7aa43394f1d92400a98fb48192400983, type: 3}
-  m_Name: Frieball
+  m_Name: FireBall
   m_EditorClassIdentifier: 
   <Description>k__BackingField: Deal 4 damage to the enemy
   <Mana>k__BackingField: 2

@@ -5,7 +5,7 @@ public class TestSystem : MonoBehaviour
     [SerializeField]
     private HandView handView;
     [SerializeField]
-    private CardData cardData;
+    private CardDataSO cardDataSO;
     [SerializeField]
     private CardView cardView;
 
@@ -13,7 +13,7 @@ public class TestSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Card card = new Card(cardData);
+            Card card = new Card(cardDataSO);
             CardView cardView = CardViewCreator.Instance.CreateCardView(card, Vector3.zero, Quaternion.identity);
             StartCoroutine(handView.AddCard(cardView));
         }
